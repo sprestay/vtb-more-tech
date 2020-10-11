@@ -2,4 +2,3 @@ flask
 flask_restplus
 requests
 gunicorn
-uwsgi
