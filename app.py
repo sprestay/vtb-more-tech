@@ -38,6 +38,6 @@ class SimpleAnswer(Resource):
     def get(self):
         return "Works"
 
-if __name__=='__main__':        
-    #Run the applications
-    app.run()
+# if __name__=='__main__':        
+#     #Run the applications
+#     app.run()
