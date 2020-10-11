@@ -2,4 +2,4 @@ flask
 flask_restplus
 requests
 gunicorn
-werkzeug
+Werkzeug==0.16.1
