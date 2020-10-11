@@ -53,6 +53,11 @@ class CarRecognize(Resource):
         print(car)
         return jsonify({'car': car}) 
 
+@api.route('/')
+class SimpleAnswer(Resource):
+    def get(self):
+        return jsonify({'response': 'ok'})
+
         # info = requests.get('https://gw.hackathon.vtb.ru/vtb/hackathon/marketplace', headers={
         #     "x-ibm-client-id" : "862e62f61ef0e7ffa9c180225f891565",
         #     'accept': 'application/json',
